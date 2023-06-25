@@ -13,10 +13,6 @@ hr {
     color: #1A1D21;
 }
 
-nav {
-    height: fit-content;
-}
-
 .img-logo-bg {
     width: 380px;
     height: 320px;
@@ -99,11 +95,51 @@ h4,
 }
 
 @keyframes img-animation {
-    4% { transform: translateY(0); }
-    70% { transform: translateY(-10px); }
-    100% { transform: translateY(0); }
-  }
-  
-  .img-animation {
+    4% {
+        transform: translateY(0);
+    }
+
+    70% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.img-animation {
     animation: img-animation 4s infinite;
-  }
+}
+
+@media (max-width: 650px) {
+    /* Estilos para dispositivos móveis */
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    nav {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20%;
+        margin-right: 0;
+    }
+
+    .col-sm-5 {
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+}
