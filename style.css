@@ -9,7 +9,7 @@ h3 {
 }
 
 hr {
-    width: 420px;
+    width: 220px;
     color: #1A1D21;
 }
 
@@ -112,7 +112,7 @@ h4,
     animation: img-animation 4s infinite;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
     /* Estilos para dispositivos móveis */
 
     body {
@@ -121,8 +121,8 @@ h4,
     }
 
     .container-fluid {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0%;
+        padding-right: 0%;
     }
 
     nav {
@@ -142,4 +142,10 @@ h4,
         width: 100%;
     }
 
+}
+
+.form-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
 }
