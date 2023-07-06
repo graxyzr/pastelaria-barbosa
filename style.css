@@ -1,6 +1,6 @@
 .img-logo {
-    width: 390px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
 }
 
 h2,
@@ -100,7 +100,7 @@ h4,
     }
 
     70% {
-        transform: translateY(-10px);
+        transform: translateY(-70px);
     }
 
     100% {
@@ -109,7 +109,7 @@ h4,
 }
 
 .img-animation {
-    animation: img-animation 4s infinite;
+    animation: img-animation 5s infinite;
 }
 
 @media (max-width: 768px) {
@@ -144,8 +144,6 @@ h4,
 
 }
 
-.form-box {
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
+.div-form-style {
+    font-family: 'Ysabeau SC', sans-serif;
 }
