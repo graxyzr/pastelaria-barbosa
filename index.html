@@ -65,7 +65,7 @@
             qualidade. Na Pastelaria Barbosa, acreditamos que desfrutar de uma refeição saborosa não precisa ser caro.
             Oferecemos preços acessíveis para você!</p>
         </section>
-        <section id="img-sobre">
+        <section class="img-fluid rounded" id="img-sobre">
           <img src="img/pastel.png" class="img-fluid rounded">
         </section>
         <br>
@@ -106,21 +106,25 @@
         <br>
         <br>
         <br>
-        <div class="card" style="width:400px">
-          <img class="card-img-top img-fluid" src="img/raquel.png" alt="Raquel de Miranda Barbosa">
-          <div class="card-body">
-            <h4 class="card-title">Raquel de Miranda Barbosa</h4>
-            <p class="card-text card-text-desc">Gerente do Estabelecimento Comercial</p>
-            <section id="card-paragrafo">
-              <p>
-                Raquel de Miranda Barbosa é uma mulher versátil e apaixonada pela tecnologia, atuando como professora de
-                Introdução à Programação no IFRS Campus Rio Grande. Além disso, ela é a talentosa proprietária da
-                renomada
-                Pastelaria Barbosa, onde seus sabores irresistíveis encantam os clientes. Com sua elegante Fiat Toro e a
-                adorável cadela Lily ao seu lado, Raquel desfruta de uma vida equilibrada, inspirando seus alunos,
-                encantando paladares e aproveitando cada momento com sua fiel companheira de estimação.</p>
-            </section>
-            <a href="#" class="btn btn-primary bg-dark border-0 button-vermais">Ver Mais</a>
+        <div class="col-12 col-md-6">
+          <div class="card" style="width:400px">
+            <img class="card-img-top img-fluid img-card" src="img/raquel.png" alt="Raquel de Miranda Barbosa">
+            <div class="card-body">
+              <h4 class="card-title d-none d-md-block">Raquel de Miranda Barbosa</h4>
+              <p class="card-text card-text-desc">Gerente do Estabelecimento Comercial</p>
+              <section id="card-paragrafo">
+                <p>
+                  Raquel de Miranda Barbosa é uma mulher versátil e apaixonada pela tecnologia, atuando como professora
+                  de
+                  Introdução à Programação no IFRS Campus Rio Grande. Além disso, ela é a talentosa proprietária da
+                  renomada
+                  Pastelaria Barbosa, onde seus sabores irresistíveis encantam os clientes. Com sua elegante Fiat Toro e
+                  a
+                  adorável cadela Lily ao seu lado, Raquel desfruta de uma vida equilibrada, inspirando seus alunos,
+                  encantando paladares e aproveitando cada momento com sua fiel companheira de estimação.</p>
+              </section>
+              <a href="#" class="btn btn-primary bg-dark border-0 button-vermais">Ver Mais</a>
+            </div>
           </div>
         </div>
         <br>
@@ -144,13 +148,13 @@
   <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/pastel-carousel.jpg" class="img-fluid-block w-100" alt="Imagem do Slide 1">
+        <img src="img/pastel-carousel-min.jpg" class="img-fluid-block w-100" alt="Imagem do Slide 1">
       </div>
       <div class="carousel-item">
-        <img src="img/pastel-carousel2.jpg" class="img-fluid d-block w-100" alt="Imagem do Slide 2">
+        <img src="img/pastel-carousel2-min.jpg" class="img-fluid d-block w-100" alt="Imagem do Slide 2">
       </div>
       <div class="carousel-item">
-        <img src="img/pastel-carousel3.jpg" class="img-fluid d-block w-100" alt="Imagem do Slide 3">
+        <img src="img/pastel-carousel3-min.jpg" class="img-fluid d-block w-100" alt="Imagem do Slide 3">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
@@ -164,6 +168,60 @@
   </div>
   </div>
 
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="container mt-5 div-form-style">
+    <h1>CADASTRO</h1>
+
+    <div class="border-2 border p-4 border-form-color">
+      <form>
+        <fieldset>
+          <legend>Informações Pessoais</legend>
+          <br>
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
+          </div>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        <fieldset>
+          <legend>Endereço</legend>
+          <br>
+          <div class="form-group">
+            <label for="rua">Rua:</label>
+            <input type="text" class="form-control" id="rua" placeholder="Digite o nome da rua">
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="cidade">Cidade:</label>
+            <input type="text" class="form-control" id="cidade" placeholder="Digite o nome da cidade">
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="estado">Estado:</label>
+            <input type="text" class="form-control" id="estado" placeholder="Digite o nome do estado">
+          </div>
+        </fieldset>
+        <br>
+        <button type="submit" class="btn btn-primary bg-dark">Enviar</button>
+      </form>
+    </div>
+  </div>
 
 
 
