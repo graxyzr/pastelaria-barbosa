@@ -21,34 +21,40 @@
 </head>
 
 <body>
-  <header>
-    <div class="bg-dark text-white text-center">
-      <a href="#">
-        <section id="img-logo-bg">
-          <img src="img/logobg.png" class="img-fluid mx-auto d-block rounded img-logo-bg">
-        </section>
-      </a>
-    </div>
-  </header>
-
-  <nav class="navbar-expand-md">
+  <div class="menu-topo">
     <div class="container-fluid">
-      <ul class="nav justify-content-center nav-color">
-        <li class="nav-item nav-items">
-          <a class="nav-link nav-href" href="#">PROMOÇÕES</a>
-        </li>
-        <li class="nav-item nav-items">
-          <a class="nav-link nav-href" href="#">CARDÁPIO</a>
-        </li>
-        <li class="nav-item nav-items">
-          <a class="nav-link nav-href" href="#">CONTATOS</a>
-        </li>
-        <li class="nav-item nav-items">
-          <a class="nav-link nav-href" href="#">CLIENTES</a>
-        </li>
-      </ul><br>
+      <header>
+        <div class="bg-dark text-white text-center">
+          <a href="#">
+            <img src="img/logobg.png" class="img-fluid mx-auto d-block rounded img-logo-bg"
+              alt="Logo da Pastelaria Barbosa">
+          </a>
+        </div>
+      </header>
     </div>
-  </nav>
+
+    <nav class="d-flex justify-content-center navbar-expand-md">
+      <div class="container-fluid">
+        <ul class="nav justify-content-center nav-color">
+          <li class="nav-item nav-items">
+            <a class="nav-link nav-href" href="#cadastro">CADASTRO</a>
+          </li>
+          <li class="nav-item nav-items">
+            <a class="nav-link nav-href" href="#fotos">FOTOS</a>
+          </li>
+          <li class="nav-item nav-items">
+            <a class="nav-link nav-href" href="#contatos">CONTATOS</a>
+          </li>
+          <li class="nav-item nav-items">
+            <a class="nav-link nav-href" href="#">SOBRE</a>
+          </li>
+        </ul><br>
+      </div>
+    </nav>
+
+
+  </div>
+
 
   <div class="container mt-5">
     <div class="row">
@@ -59,127 +65,133 @@
         <br>
         <h2><strong>SOBRE</strong></h2>
         <hr>
-        <section id="text-p-sobre">
-          <p>Somos uma tradicional e acolhedora pastelaria, dedicada a oferecer deliciosos pastéis a preços acessíveis.
-            Aqui, você encontrará uma variedade de sabores irresistíveis, todos preparados com ingredientes frescos e de
-            qualidade. Na Pastelaria Barbosa, acreditamos que desfrutar de uma refeição saborosa não precisa ser caro.
-            Oferecemos preços acessíveis para você!</p>
+        <p>Somos uma tradicional e acolhedora pastelaria, dedicada a oferecer deliciosos pastéis a preços acessíveis.
+          Aqui, você encontrará uma variedade de sabores irresistíveis, todos preparados com ingredientes frescos e de
+          qualidade. Na Pastelaria Barbosa, acreditamos que desfrutar de uma refeição saborosa não precisa ser caro.
+          Oferecemos preços acessíveis para você!</p>
+        <section id="contatos">
+          <img src="img/pastel.png" class="img-fluid rounded" alt="Pastel">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h3 class="mt-4"><strong>CONTATOS</strong></h3>
+          <hr>
+          <div class="icon-container">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <a class="icon-text" href="https://www.facebook.com/2em1rg">Pastelaria Barbosa</a>
+          </div>
+          <div class="icon-container">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <a class="icon-text" href="https://www.instagram.com/pastelariasaopedro_oficial/">@pastelaria_barbosa</a>
+          </div>
+          <div class="icon-container">
+            <ion-icon name="logo-twitter"></ion-icon>
+            <a class="icon-text" href="https://twitter.com/NissiPastelaria">@pastelariabarbosarg</a>
+          </div>
+          <div class="icon-container">
+            <ion-icon name="call-outline"></ion-icon>
+            <a class="icon-text">(53) 9999-8888</a>
+          </div>
         </section>
-        <section class="img-fluid rounded" id="img-sobre">
-          <img src="img/pastel.png" class="img-fluid rounded">
-        </section>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h3 class="mt-4"><strong>CONTATOS</strong></h3>
-        <hr>
-        <div class="icon-container">
-          <ion-icon name="logo-facebook"></ion-icon>
-          <a class="icon-text" href="https://www.facebook.com/2em1rg">Pastelaria Barbosa</a>
-        </div>
-        <div class="icon-container">
-          <ion-icon name="logo-instagram"></ion-icon>
-          <a class="icon-text" href="https://www.instagram.com/pastelariasaopedro_oficial/">@pastelaria_barbosa</a>
-        </div>
-        <div class="icon-container">
-          <ion-icon name="logo-twitter"></ion-icon>
-          <a class="icon-text" href="https://twitter.com/NissiPastelaria">@pastelariabarbosarg</a>
-        </div>
-        <div class="icon-container">
-          <ion-icon name="call-outline"></ion-icon>
-          <a class="icon-text">(53) 9999-8888</a>
-        </div>
-        <br>
-        <br>
-        <section id="img-animation-pastel">
-          <img src="img/pastel-animation.png" class="img-fluid rounded img-animation">
-        </section>
+        <img src="img/pastel-animation.png" class="img-fluid rounded img-animation" alt="Animação do Pastel">
         <br>
         <br>
         <hr class="d-sm-none">
       </div>
-      <div class="col-sm-5">
+      <div class="col-sm-5 d-none d-sm-block">
         <br>
         <br>
         <br>
-        <br>
-        <div class="col-12 col-md-6">
-          <div class="card" style="width:400px">
-            <img class="card-img-top img-fluid img-card" src="img/raquel.png" alt="Raquel de Miranda Barbosa">
-            <div class="card-body">
-              <h4 class="card-title d-none d-md-block">Raquel de Miranda Barbosa</h4>
-              <p class="card-text card-text-desc">Gerente do Estabelecimento Comercial</p>
-              <section id="card-paragrafo">
-                <p>
-                  Raquel de Miranda Barbosa é uma mulher versátil e apaixonada pela tecnologia, atuando como professora
-                  de
-                  Introdução à Programação no IFRS Campus Rio Grande. Além disso, ela é a talentosa proprietária da
-                  renomada
-                  Pastelaria Barbosa, onde seus sabores irresistíveis encantam os clientes. Com sua elegante Fiat Toro e
-                  a
-                  adorável cadela Lily ao seu lado, Raquel desfruta de uma vida equilibrada, inspirando seus alunos,
-                  encantando paladares e aproveitando cada momento com sua fiel companheira de estimação.</p>
-              </section>
-              <a href="#" class="btn btn-primary bg-dark border-0 button-vermais">Ver Mais</a>
+        <section id="ver-mais">
+          <br>
+          <div class="container-fluid">
+            <div class="col-12 col-md-6">
+              <div class="card" style="width:400px">
+                <img class="card-img-top img-fluid img-card" src="img/raquel.png" alt="Raquel de Miranda Barbosa"
+                  loading="lazy">
+                <div class="card-body">
+                  <h4 class="card-title d-none d-md-block">Raquel de Miranda Barbosa</h4>
+                  <p class="card-text card-text-desc">Gerente do Estabelecimento Comercial</p>
+                  <p>
+                    Raquel de Miranda Barbosa é uma mulher versátil e apaixonada pela tecnologia, atuando como
+                    professora
+                    de
+                    Introdução à Programação no IFRS Campus Rio Grande. Além disso, ela é a talentosa proprietária da
+                    renomada
+                    Pastelaria Barbosa, onde seus sabores irresistíveis encantam os clientes. Com sua elegante Fiat
+                    Toro
+                    e
+                    a
+                    adorável cadela Lily ao seu lado, Raquel desfruta de uma vida equilibrada, inspirando seus alunos,
+                    encantando paladares e aproveitando cada momento com sua fiel companheira de estimação.</p>
+                  <a href="#ver-mais" class="btn btn-primary bg-dark border-0 button-vermais">Ver Mais</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h3 class="mt-4">PROMOÇÃO DA SEMANA!</h3>
-        <hr>
-        <section id="img-pastel-promocao">
-          <img src="img/pastel-promocao.png" class="img-fluid rounded">
         </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="col-12 col-md-6 promocoes-col">
+          <section id="promocoes">
+            <br>
+            <h3 class="mt-">PROMOÇÃO DA SEMANA!</h3>
+            <hr>
+            <img src="img/pastel-promocao.png" class="img-fluid rounded" alt="Promoção de Pastel">
+          </section>
+        </div>
       </div>
     </div>
   </div>
-
   <br>
   <br>
+  <section id="fotos"></section>
   <br>
-  <div class="carousel-container"></div>
-  <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/pastel-carousel-min.jpg" class="img-fluid-block w-100" alt="Imagem do Slide 1">
+  <div class="container-fluid">
+    <div class="carousel-container"></div>
+    <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/pastel-carousel-min.jpg" class="img-fluid-block w-100" alt="Imagem do Slide 1" loading="lazy">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pastel-carousel2-min.jpg" class="img-fluid d-block w-100" alt="Imagem do Slide 2"
+            loading="lazy">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pastel-carousel3-min.jpg" class="img-fluid d-block w-100" alt="Imagem do Slide 3"
+            loading="lazy">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="img/pastel-carousel2-min.jpg" class="img-fluid d-block w-100" alt="Imagem do Slide 2">
-      </div>
-      <div class="carousel-item">
-        <img src="img/pastel-carousel3-min.jpg" class="img-fluid d-block w-100" alt="Imagem do Slide 3">
-      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </a>
+      <section id="cadastro"></section>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Próximo</span>
-    </a>
   </div>
-  </div>
-
   <br>
   <br>
   <br>
   <br>
 
-  <div class="container mt-5 div-form-style">
-    <h1>CADASTRO</h1>
-
+  <div class="container-fluid mt-5 div-form-style">
+    <br>
     <div class="border-2 border p-4 border-form-color">
       <form>
         <fieldset>
-          <legend>Informações Pessoais</legend>
+          <legend style="text-decoration: underline;">Informações Pessoais</legend>
           <br>
           <div class="form-group">
             <label for="nome">Nome:</label>
@@ -200,7 +212,7 @@
         <br>
         <br>
         <fieldset>
-          <legend>Endereço</legend>
+          <legend style="text-decoration: underline;">Endereço</legend>
           <br>
           <div class="form-group">
             <label for="rua">Rua:</label>
@@ -208,17 +220,47 @@
           </div>
           <br>
           <div class="form-group">
-            <label for="cidade">Cidade:</label>
-            <input type="text" class="form-control" id="cidade" placeholder="Digite o nome da cidade">
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+              <option value="">Selecione...</option>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+            </select>
           </div>
           <br>
           <div class="form-group">
-            <label for="estado">Estado:</label>
-            <input type="text" class="form-control" id="estado" placeholder="Digite o nome do estado">
+            <label for="cidade">Cidade:</label>
+            <input type="text" class="form-control" id="cidade" placeholder="Digite o nome da cidade">
           </div>
         </fieldset>
         <br>
-        <button type="submit" class="btn btn-primary bg-dark">Enviar</button>
+        <br>
+        <button type="submit" class="btn btn-primary bg-dark border-0 btn-border">Enviar</button>
       </form>
     </div>
   </div>
@@ -232,7 +274,7 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
