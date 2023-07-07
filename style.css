@@ -9,7 +9,7 @@ h3 {
 }
 
 hr {
-    width: 220px;
+    width: 100%;
     color: #1A1D21;
 }
 
@@ -27,9 +27,8 @@ hr {
 }
 
 .container-fluid {
-    padding-left: 0%;
-    padding-right: 0%;
-    height: 20px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .col-sm-5 {
@@ -53,10 +52,6 @@ p {
 
 .icon-text:hover {
     color: #EDC243;
-}
-
-.img-cardapio {
-    width: 500%;
 }
 
 .carousel-inner .carousel-item img {
@@ -112,12 +107,13 @@ h4,
     animation: img-animation 5s infinite;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 1920px) {
     /* Estilos para dispositivos móveis */
 
     body {
         margin: 0;
         padding: 0;
+        padding-top: 200px;
     }
 
     .container-fluid {
@@ -128,22 +124,51 @@ h4,
     nav {
         justify-content: center;
         text-align: center;
-        margin-bottom: 20%;
+        margin-bottom: 5%;
         margin-right: 0;
     }
 
     .col-sm-5 {
         padding-left: 0;
         padding-right: 0;
-        margin-right: 0;
     }
 
     .card {
+        margin-left: 145%;
+    }
+
+    #promocoes img.img-fluid {
         width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+    .promocoes-col {
+        margin-left: 75%;
     }
 
 }
 
 .div-form-style {
     font-family: 'Ysabeau SC', sans-serif;
+}
+
+.btn-border,
+.btn-border:hover,
+.btn-border:focus,
+.btn-border:visited,
+.btn-border a {
+    border-color: #1A1D21;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-topo {
+    position: fixed;
+    top: -85px;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+
 }
